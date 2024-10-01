@@ -10,11 +10,11 @@ header{
     font-size: 4vw;
     width: 50vw;
     border-radius: 25px;
-    background-color: rgba(43, 43, 82, 0.411);
+    background-color: rgba(65, 65, 108, 0.616);
 }
 
 body{
-    display: grid;
+    display: flexbox;
 }
 
 h2{
