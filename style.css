@@ -1,0 +1,60 @@
+html{
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 7%, rgb(11, 11, 76) 53%, rgb(40, 20, 91) 100%);
+}
+
+header{
+    text-align: center;
+    color: aliceblue;
+    margin: auto;
+    font-size: 4vw;
+    width: 50vw;
+    border-radius: 25px;
+    background-color: rgba(43, 43, 82, 0.411);
+}
+
+h2{
+    color: aliceblue;
+}
+
+nav{
+    text-align: center;
+    color: aliceblue;
+    margin: auto;
+    font-size: 3vw;
+    width: 70vw;
+}
+
+li{
+    display: inline;
+    margin-right: 10px;
+}
+
+a{
+    color: white;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #b3a1dd94;
+    border-radius: 5px;
+}
+
+.arcard, .alcard, .scard{ 
+    box-shadow: 0 4px 8px 0 black;
+    transition: 0.3s;
+    width: 300px;
+    height: 500px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: aliceblue;
+    justify-content: center;
+}
+
+
+.alcard:hover, .arcard:hover, .scard:hover{
+    box-shadow: 0 8px 16px 0 rgba(175, 149, 197, 0.548);
+    
+}
