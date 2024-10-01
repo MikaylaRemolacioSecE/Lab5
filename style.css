@@ -13,6 +13,10 @@ header{
     background-color: rgba(43, 43, 82, 0.411);
 }
 
+body{
+    display: grid;
+}
+
 h2{
     color: aliceblue;
 }
